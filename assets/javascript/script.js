@@ -16,7 +16,7 @@
 
    document.onkeyup = function () {
 
-    var guess = event.key;
+    var guess =  String.fromCharCode(event.keyCode).toLowerCase();
    console.log (guess) ;
   
 
